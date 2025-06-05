@@ -1,0 +1,32 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- URL Entry for Homepage -->
+  <url>
+    <loc>https://kuwait-sb.com/</loc>
+    <lastmod>2025-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Image 1: Homepage - Moving Team -->
+    <image:image>
+      <image:loc>https://kuwait-sb.com/assets/img/moving-company-logo.webp</image:loc>
+      <image:caption>فريق نقل عفش محترف في الكويت | خدمات تغليف ونقل آمن مع ضمان عدم التعرض للخدش أو الكسر</image:caption>
+      <image:title>أفضل شركة نقل عفش في الكويت - أسعار تنافسية مع ضمان الحماية الكاملة</image:title>
+    </image:image>
+
+    <!-- Image 2: Homepage - Packing Service -->
+    <image:image>
+      <image:loc>https://kuwait-sb.com/assets/img/moving-og-image.webp</image:loc>
+      <image:caption>خدمات تغليف العفش بمواد عالية الجودة | نقل آمن للمنازل والمكاتب والفيلات</image:caption>
+      <image:title>حلول متكاملة لنقل وتخزين الأثاث في الكويت</image:title>
+    </image:image>
+
+    <!-- Image 3: Homepage - Moving Truck -->
+    <image:image>
+      <image:loc>https://kuwait-sb.com/assets/img/moving-hero.webp</image:loc>
+      <image:caption>أسطول سيارات مجهز لنقل العفش بجميع أحجامه | خدمة 24 ساعة لجميع مناطق الكويت</image:caption>
+      <image:title>نقل عفش سريع وآمن مع فك وتركيب الأثاث</image:title>
+    </image:image>
+  </url>
+</urlset>
