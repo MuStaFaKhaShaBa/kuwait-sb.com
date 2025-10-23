@@ -1,278 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Contact - ZenBlog Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Favicons -->
-  <link href="https://kuwait-sb.com/assets/img/favicon.png" rel="icon">
-  <link href="https://kuwait-sb.com/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Title -->
+    <title>اتصل بنا - نقل عفش الكويت | رقم هاتف 99836177 | فروع الفروانية،
+      السالمية، الجهراء، حولي</title>
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+       <!-- Favicon -->
+        <link rel="icon" href="https://kuwait-sb.com/assets/img/flagofkuwait_6485.ico"
+            type="image/x-icon" />
+            
+    <!-- Meta Description -->
+    <meta name="description"
+      content="اتصل بشركة نقل عفش الكويت للحصول على خدمة نقل أثاث محترفة. نحن متواجدون في جميع مناطق الكويت including الفروانية، السالمية، الجهراء، حولي، الأحمدي. اتصل: 99836177" />
 
-  <!-- Vendor CSS Files -->
-  <link href="https://kuwait-sb.com/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://kuwait-sb.com/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="https://kuwait-sb.com/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="https://kuwait-sb.com/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kuwait-sb.com/contact.html" />
 
-  <!-- Main CSS File -->
-  <link href="https://kuwait-sb.com/assets/css/main.css" rel="stylesheet">
+    <!-- Keywords -->
+    <meta name="keywords"
+      content="اتصل بنقل عفش الكويت, رقم نقل عفش, نقل عفش الفروانية, نقل عفش السالمية, نقل عفش الجهراء, نقل عفش حولي, نقل عفش الأحمدي, فك وتركيب أثاث, تخزين عفش, اسعار نقل العفش, ارقام نقل عفش الكويت" />
 
-  <!-- =======================================================
-  * Template Name: ZenBlog
-  * Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
-  * Updated: Aug 08 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="KW" />
+    <meta name="geo.placename" content="Kuwait" />
+    <meta name="geo.position" content="29.3759;47.9774" />
+    <meta name="ICBM" content="29.3759,47.9774" />
 
-<body class="contact-page">
+    <!-- Open Graph -->
+    <meta property="og:title"
+      content="اتصل بنا - نقل عفش الكويت | رقم هاتف 99836177" />
+    <meta property="og:description"
+      content="تواصل مع أفضل شركة نقل عفش في الكويت. خدمات نقل أثاث محترفة في جميع المناطق. اتصل: 99836177" />
+    <meta property="og:image"
+      content="https://kuwait-sb.com/assets/img/blog/blogs/blog-1.webp" />
+    <meta property="og:url" content="https://kuwait-sb.com/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ar_KW" />
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container position-relative d-flex align-items-center justify-content-between">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="اتصل بنا - نقل عفش الكويت | 99836177" />
+    <meta name="twitter:description"
+      content="تواصل معنا للحصول على أفضل خدمات نقل العفش في الكويت. فريق محترف وخدمة 24/7" />
+    <meta name="twitter:image"
+      content="https://kuwait-sb.com/assets/img/blog/blogs/blog-2.webp" />
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="https://kuwait-sb.com/assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">ZenBlog</h1>
-      </a>
+    <!-- Favicon -->
+    <link rel="icon" href="https://kuwait-sb.com/assets/img/favicon.ico"
+      type="image/x-icon" />
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="single-post.html">Single Post</a></li>
-          <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="category.html">Category 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="category.html">Category 2</a></li>
-              <li><a href="category.html">Category 3</a></li>
-              <li><a href="category.html">Category 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet">
 
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
+    <!-- CSS -->
+    <link
+      href="https://kuwait-sb.com/assets/vendor/bootstrap/css/bootstrap.rtl.min.css"
+      rel="stylesheet">
+    <link
+      href="https://kuwait-sb.com/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet">
+    <link href="https://kuwait-sb.com/assets/vendor/aos/aos.css"
+      rel="stylesheet">
+    <link
+      href="https://kuwait-sb.com/assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://kuwait-sb.com/assets/css/main.css">
 
-    </div>
-  </header>
+    <!-- Schema Markup for Contact Page -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "اتصل بنا - نقل عفش الكويت",
+        "description": "صفحة الاتصال بشركة نقل عفش الكويت لخدمات نقل الأثاث في جميع مناطق الكويت",
+        "url": "https://kuwait-sb.com/contact.html",
+        "mainEntity": {
+            "@type": "Organization",
+            "name": "نقل عفش الكويت",
+            "telephone": "+96599836177",
+            "email": "info@kuwait-sb.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "الديجيج",
+                "addressLocality": "الفروانية",
+                "addressCountry": "KW"
+            },
+            "areaServed": ["الفروانية", "السالمية", "الجهراء", "حولي", "الأحمدي", "مبارك الكبير", "العاصمة"],
+            "serviceArea": {
+                "@type": "GeoCircle",
+                "geoMidpoint": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 29.3759,
+                    "longitude": 47.9774
+                },
+                "geoRadius": "50000"
+            },
+            "openingHours": [
+                "Mo-Th 08:00-20:00",
+                "Fr 10:00-18:00",
+                "Sa 08:00-20:00"
+            ],
+            "sameAs": [
+                "https://www.instagram.com/movealkuayt",
+                "https://api.whatsapp.com/send?phone=96599836177"
+            ]
+        }
+    }
+    </script>
 
-  <main class="main">
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "نقل عفش الكويت",
+        "image": "https://kuwait-sb.com/assets/img/blog/blogs/blog-3.webp",
+        "@id": "https://kuwait-sb.com",
+        "url": "https://kuwait-sb.com",
+        "telephone": "+96599836177",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "الديجيج",
+            "addressLocality": "الفروانية",
+            "addressCountry": "KW"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 29.2775,
+            "longitude": 47.9586
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "20:00"
+        },
+        "sameAs": [
+            "https://www.instagram.com/movealkuayt",
+            "https://api.whatsapp.com/send?phone=96599836177"
+        ]
+    }
+    </script>
+  </head>
 
-    <!-- Page Title -->
-    <div class="page-title">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Contact</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Contact</li>
-          </ol>
+  <body class="contact-page">
+
+    <!-- Floating Buttons -->
+    <a href="https://wa.me/+96599836177" class="floating-button"
+      title="تواصل عبر واتساب">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+    <a href="tel:99836177" class="floating-button second" title="اتصل بنا الآن">
+      <i class="bi bi-telephone-fill"></i>
+    </a>
+
+    <!-- Header -->
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container position-relative d-flex align-items-center justify-content-between">
+
+        <a href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0">
+          <h1 class="sitename">نقل عفش الكويت</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li class="dropdown"><a href="#"><span>خدماتنا</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="house-moving.html">نقل منازل وشقق</a></li>
+                <li><a href="villa-moving.html">نقل فلل وقصور</a></li>
+                <li><a href="office-moving.html">نقل مكاتب</a></li>
+                <li><a href="furniture-assembly.html">فك وتركيب الأثاث</a></li>
+                <li><a href="storage.html">تخزين العفش</a></li>
+              </ul>
+            </li>
+            <li><a href="prices.html">أسعارنا</a></li>
+            <li><a href="gallery.html">معرض الأعمال</a></li>
+            <li><a href="contact.html" class="active">اتصل بنا</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-      </div>
-    </div><!-- End Page Title -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div><!-- End Google Maps -->
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">ZenBlog</span>
+        <div class="header-social-links">
+          <a href="https://api.whatsapp.com/send?phone=96599836177"
+            class="whatsapp">
+            <i class="bi bi-whatsapp"></i>
           </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
+          <a href="tel:+96599836177" class="phone">
+            <i class="bi bi-telephone-fill"></i>
+          </a>
         </div>
 
       </div>
-    </div>
+    </header>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">ZenBlog</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+    <main class="main">
+
+      <!-- Page Title -->
+      <div class="page-title bg-light py-4">
+        <div
+          class="container d-lg-flex justify-content-between align-items-center">
+          <h1 class="mb-2 mb-lg-0">اتصل بنا - نقل عفش الكويت</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">الرئيسية</a></li>
+              <li class="current">اتصل بنا</li>
+            </ol>
+          </nav>
+        </div>
+      </div><!-- End Page Title -->
+
+      <!-- SEO Content Section -->
+      <section class="seo-content-section py-3 bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="seo-rich-content p-3">
+                <h2 class="h4 text-primary">اتصل بشركة نقل عفش الكويت - أفضل
+                  خدمة نقل أثاث في جميع المناطق</h2>
+                <p>تواصل مع <strong>أفضل شركة نقل عفش في الكويت</strong> للحصول
+                  على خدمة نقل أثاث محترفة. نحن نقدم خدماتنا في <strong>جميع
+                    مناطق الكويت</strong> including الفروانية، السالمية،
+                  الجهراء، حولي، الأحمدي، ومبارك الكبير. فريقنا المدرب جاهز
+                  لخدمتك على مدار الساعة.</p>
+
+                <div class="row mt-3">
+                  <div class="col-md-6">
+                    <h3 class="h5 text-success">لماذا تختارنا؟</h3>
+                    <ul>
+                      <li>أسطول سيارات مجهزة خصيصاً لنقل العفش</li>
+                      <li>فريق مدرب على أعلى مستوى في نقل الأثاث</li>
+                      <li>أسعار تنافسية وشفافة بدون تكاليف خفية</li>
+                      <li>ضمان على جميع قطع الأثاث خلال عملية النقل</li>
+                      <li>خدمة 24/7 للطوارئ والاستفسارات</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h3 class="h5 text-success">مناطق الخدمة</h3>
+                    <ul>
+                      <li>نقل عفش الفروانية</li>
+                      <li>نقل عفش السالمية</li>
+                      <li>نقل عفش الجهراء</li>
+                      <li>نقل عفش حولي</li>
+                      <li>نقل عفش الأحمدي</li>
+                      <li>وجميع مناطق الكويت</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section py-5">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+            <iframe style="border:0; width: 100%; height: 270px;"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55776.541918487656!2d47.9586!3d29.2775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDE2JzM5LjAiTiA0N8KwNTcnMzEuMCJF!5e0!3m2!1sen!2skw!4v1642345678901!5m2!1sen!2skw"
+              frameborder="0" allowfullscreen loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div><!-- End Google Maps -->
+
+          <div class="row gy-4">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex" data-aos="fade-up"
+                data-aos-delay="300">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>العنوان</h3>
+                  <p>الديجيج، محافظة الفروانية، الكويت</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up"
+                data-aos-delay="400">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>اتصل بنا</h3>
+                  <p>+965 99836177</p>
+                  <p>+965 99660310</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up"
+                data-aos-delay="500">
+                <i class="bi bi-whatsapp flex-shrink-0"></i>
+                <div>
+                  <h3>واتساب</h3>
+                  <p>+965 99836177</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up"
+                data-aos-delay="600">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>البريد الإلكتروني</h3>
+                  <p>info@kuwait-sb.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up"
+                data-aos-delay="700">
+                <i class="bi bi-clock flex-shrink-0"></i>
+                <div>
+                  <h3>مواعيد العمل</h3>
+                  <p>الأحد - الخميس: 8 ص - 8 م</p>
+                  <p>الجمعة: 10 ص - 6 م</p>
+                  <p><strong>خدمة الطوارئ:</strong> 24/7</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+            <div class="col-lg-8">
+              <div class="contact-form-header mb-4" data-aos="fade-up"
+                data-aos-delay="200">
+                <h2 class="text-primary">أرسل لنا رسالة</h2>
+                <p>املأ النموذج أدناه وسنتصل بك في أقرب وقت ممكن</p>
+              </div>
+
+              <form action="forms/contact.php" method="post"
+                class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control"
+                      placeholder="الاسم بالكامل" required>
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="tel" class="form-control" name="phone"
+                      placeholder="رقم الهاتف" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" name="email"
+                      placeholder="البريد الإلكتروني">
+                  </div>
+
+                  <div class="col-md-6">
+                    <select class="form-control" name="area" required>
+                      <option value>اختر المنطقة</option>
+                      <option value="الفروانية">الفروانية</option>
+                      <option value="حولي">حولي</option>
+                      <option value="العاصمة">العاصمة</option>
+                      <option value="الجهراء">الجهراء</option>
+                      <option value="الأحمدي">الأحمدي</option>
+                      <option value="مبارك الكبير">مبارك الكبير</option>
+                      <option value="السالمية">السالمية</option>
+                      <option value="other">منطقة أخرى</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-12">
+                    <select class="form-control" name="service" required>
+                      <option value>اختر الخدمة المطلوبة</option>
+                      <option value="نقل منازل">نقل منازل وشقق</option>
+                      <option value="نقل فلل">نقل فلل وقصور</option>
+                      <option value="نقل مكاتب">نقل مكاتب</option>
+                      <option value="فك وتركيب">فك وتركيب الأثاث</option>
+                      <option value="تخزين">تخزين عفش</option>
+                      <option value="استشارة">استشارة مجانية</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea class="form-control" name="message" rows="6"
+                      placeholder="الرسالة (اختياري)"></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">جاري التحميل</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">تم إرسال رسالتك بنجاح. شكراً
+                      لك!</div>
+
+                    <button type="submit">إرسال الرسالة</button>
+                  </div>
+
+                </div>
+              </form>
+            </div><!-- End Contact Form -->
+
+          </div>
+
+        </div>
+
+      </section><!-- /Contact Section -->
+
+      <!-- FAQ Section -->
+      <section class="faq-section bg-light py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">أسئلة شائعة حول خدمات نقل العفش</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="faq-item mb-3">
+                <h4 class="text-primary">كم تستغرق عملية نقل العفش؟</h4>
+                <p>تختلف المدة حسب حجم العفش والمسافة. عادةً ما تستغرق عملية نقل
+                  شقة من غرفتين من 4-6 ساعات، بينما قد تستغرق الفيلا من 6-10
+                  ساعات.</p>
+              </div>
+              <div class="faq-item mb-3">
+                <h4 class="text-primary">هل تقدمون خدمة التغليف؟</h4>
+                <p>نعم، نقدم خدمة تغليف متكاملة باستخدام مواد عالية الجودة
+                  لحماية أثاثك خلال عملية النقل.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="faq-item mb-3">
+                <h4 class="text-primary">ما هي ضماناتكم على الأثاث؟</h4>
+                <p>نحن نضمن حماية أثاثك خلال عملية النقل. في حال حدوث أي تلف due
+                  to إهمال الفريق، نقوم بتعويضك accordingly.</p>
+              </div>
+              <div class="faq-item mb-3">
+                <h4 class="text-primary">هل تعملون في عطلات نهاية الأسبوع؟</h4>
+                <p>نعم، نعمل طوال أيام الأسبوع including الجمعة والسبت، كما نقدم
+                  خدمة الطوارئ على مدار 24 ساعة.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-section bg-primary text-white py-4">
+        <div class="container text-center">
+          <h3 class="mb-3">هل تحتاج إلى استشارة مجانية؟</h3>
+          <p class="mb-4">اتصل بنا الآن للحصول على عرض سعر مجاني وتقييم مجاني
+            لخدمات نقل العفش</p>
+          <a href="tel:+96599836177" class="btn btn-light btn-lg me-3">اتصل
+            الآن: 99836177</a>
+          <a href="https://wa.me/+96599836177"
+            class="btn btn-outline-light btn-lg">تواصل عبر واتساب</a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="footer" class="footer bg-dark text-white pt-5">
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">نقل عفش الكويت</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>الديجيج، محافظة الفروانية</p>
+              <p>الكويت</p>
+              <p class="mt-3"><strong>هاتف:</strong> <span>+965
+                  99836177</span></p>
+              <p><strong>واتساب:</strong> <span>+965 99836177</span></p>
+              <p><strong>البريد:</strong> <span>info@kuwait-sb.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="https://api.whatsapp.com/send?phone=96599836177"
+                class="text-white me-2">
+                <i class="bi bi-whatsapp fs-5"></i>
+              </a>
+              <a href="tel:+96599836177" class="text-white me-2">
+                <i class="bi bi-telephone-fill fs-5"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/naql_eafsh_haflwri5?igsh=Y2t6NzJlajh5MTlm"
+                class="text-white">
+                <i class="bi bi-instagram fs-5"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>روابط سريعة</h4>
+            <ul>
+              <li><a href="index.html" class="text-white">الرئيسية</a></li>
+              <li><a href="about.html" class="text-white">من نحن</a></li>
+              <li><a href="services.html" class="text-white">خدماتنا</a></li>
+              <li><a href="prices.html" class="text-white">أسعارنا</a></li>
+              <li><a href="contact.html" class="text-white">اتصل بنا</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>خدماتنا</h4>
+            <ul>
+              <li><a href="house-moving.html" class="text-white">نقل
+                  منازل</a></li>
+              <li><a href="villa-moving.html" class="text-white">نقل
+                  فلل</a></li>
+              <li><a href="office-moving.html" class="text-white">نقل
+                  مكاتب</a></li>
+              <li><a href="furniture-assembly.html" class="text-white">فك
+                  وتركيب</a></li>
+              <li><a href="storage.html" class="text-white">تخزين عفش</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>مناطق الخدمة</h4>
+            <ul>
+              <li><a href="farwaniya.html" class="text-white">الفروانية</a></li>
+              <li><a href="hawalli.html" class="text-white">حولي</a></li>
+              <li><a href="asima.html" class="text-white">العاصمة</a></li>
+              <li><a href="jahra.html" class="text-white">الجهراء</a></li>
+              <li><a href="ahmadi.html" class="text-white">الأحمدي</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>مواعيد العمل</h4>
+            <ul class="working-hours">
+              <li>الأحد - الخميس: 8 ص - 8 م</li>
+              <li>الجمعة: 10 ص - 6 م</li>
+              <li class="mt-3"><strong>خدمة الطوارئ:</strong> 24/7</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
 
-  </footer>
+      <div class="container copyright text-center mt-4 py-3">
+        <p>© <span>حقوق النشر</span> <strong class="px-1 sitename">نقل عفش
+            الكويت</strong> <span>2023</span></p>
+        <div class="credits">
+          أفضل شركة نقل عفش في الكويت منذ 2010
+        </div>
+      </div>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    </footer>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center bg-primary text-white">
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
 
-  <!-- Vendor JS Files -->
-  <script src="https://kuwait-sb.com/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kuwait-sb.com/assets/vendor/php-email-form/validate.js"></script>
-  <script src="https://kuwait-sb.com/assets/vendor/aos/aos.js"></script>
-  <script src="https://kuwait-sb.com/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Main JS File -->
-  <script src="https://kuwait-sb.com/assets/js/main.js"></script>
+    <!-- Vendor JS Files -->
+    <script
+      src="https://kuwait-sb.com/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kuwait-sb.com/assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://kuwait-sb.com/assets/vendor/aos/aos.js"></script>
+    <script
+      src="https://kuwait-sb.com/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-</body>
+    <!-- Main JS File -->
+    <script src="https://kuwait-sb.com/assets/js/main.js"></script>
+
+  </body>
 
 </html>
